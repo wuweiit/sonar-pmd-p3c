@@ -22,6 +22,8 @@ Usage should be straight forward:
 2. Run an analysis.
 
 ### Java version
+openjdk23
+
 Sonar-PMD analyzes the given source code with the Java source version defined in your Gradle or Maven project.
 In case you are not using one of these build tools, or if that does not match the version you are using, set the `sonar.java.source` property to tell PMD which version of Java your source code complies to. 
 
